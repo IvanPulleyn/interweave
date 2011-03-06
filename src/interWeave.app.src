@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, interWeave,
+ [{description, "interWeave"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'interWeave_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
